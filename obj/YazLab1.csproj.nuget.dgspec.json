@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Emir\\source\\repos\\YazLab11\\YazLab1.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Emir\\source\\repos\\YazLab11\\YazLab1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Emir\\source\\repos\\YazLab11\\YazLab1.csproj",
+        "projectName": "YazLab1",
+        "projectPath": "C:\\Users\\Emir\\source\\repos\\YazLab11\\YazLab1.csproj",
+        "packagesPath": "C:\\Users\\Emir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Emir\\source\\repos\\YazLab11\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Emir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows7.0",
+          "dependencies": {
+            "Atalasoft.dotImage.PdfReader.x64": {
+              "target": "Package",
+              "version": "[11.4.0.11410, )"
+            },
+            "Atalasoft.dotImage.PdfReader.x86": {
+              "target": "Package",
+              "version": "[11.4.0.11410, )"
+            },
+            "FreeSpire.PDF": {
+              "target": "Package",
+              "version": "[8.6.0, )"
+            },
+            "IronOcr": {
+              "target": "Package",
+              "version": "[2023.10.9, )"
+            },
+            "IronOcr.Languages.Turkish": {
+              "target": "Package",
+              "version": "[2020.11.2, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[7.0.6, )"
+            },
+            "System.Text.Encoding.CodePages": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Tesseract": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "TesseractOCR": {
+              "target": "Package",
+              "version": "[5.3.5, )"
+            },
+            "iTextSharp": {
+              "target": "Package",
+              "version": "[5.5.13.3, )"
+            },
+            "sautinsoft.document": {
+              "target": "Package",
+              "version": "[2023.9.10, )"
+            },
+            "sautinsoft.pdffocus": {
+              "target": "Package",
+              "version": "[2023.5.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.12, 7.0.12]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.12, 7.0.12]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.12, 7.0.12]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.12, 7.0.12]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.2.23502.2\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

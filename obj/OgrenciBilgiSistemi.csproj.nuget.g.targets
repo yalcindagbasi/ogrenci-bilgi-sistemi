@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.logging.abstractions\7.0.1\buildTransitive\net6.0\Microsoft.Extensions.Logging.Abstractions.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.logging.abstractions\7.0.1\buildTransitive\net6.0\Microsoft.Extensions.Logging.Abstractions.targets')" />
+    <Import Project="$(NuGetPackageRoot)tesseractocr\5.3.5\build\TesseractOCR.targets" Condition="Exists('$(NuGetPackageRoot)tesseractocr\5.3.5\build\TesseractOCR.targets')" />
+    <Import Project="$(NuGetPackageRoot)tesseract\5.2.0\build\Tesseract.targets" Condition="Exists('$(NuGetPackageRoot)tesseract\5.2.0\build\Tesseract.targets')" />
+    <Import Project="$(NuGetPackageRoot)ironsoftware.native.pdfmodel\2023.9.19098\buildTransitive\netstandard2.0\IronSoftware.Native.PdfModel.targets" Condition="Exists('$(NuGetPackageRoot)ironsoftware.native.pdfmodel\2023.9.19098\buildTransitive\netstandard2.0\IronSoftware.Native.PdfModel.targets')" />
+    <Import Project="$(NuGetPackageRoot)ironocr\2023.10.9\buildTransitive\netstandard2.0\IronOcr.targets" Condition="Exists('$(NuGetPackageRoot)ironocr\2023.10.9\buildTransitive\netstandard2.0\IronOcr.targets')" />
+    <Import Project="$(NuGetPackageRoot)ironocr.languages.turkish\2020.11.2\build\IronOcr.Languages.Turkish.targets" Condition="Exists('$(NuGetPackageRoot)ironocr.languages.turkish\2020.11.2\build\IronOcr.Languages.Turkish.targets')" />
+    <Import Project="$(NuGetPackageRoot)atalasoft.dotimage.lib.x86\11.4.0.11410\build\Atalasoft.dotImage.Lib.x86.targets" Condition="Exists('$(NuGetPackageRoot)atalasoft.dotimage.lib.x86\11.4.0.11410\build\Atalasoft.dotImage.Lib.x86.targets')" />
+    <Import Project="$(NuGetPackageRoot)atalasoft.dotimage.x86\11.4.0.11410\build\Atalasoft.dotImage.x86.targets" Condition="Exists('$(NuGetPackageRoot)atalasoft.dotimage.x86\11.4.0.11410\build\Atalasoft.dotImage.x86.targets')" />
+    <Import Project="$(NuGetPackageRoot)atalasoft.dotimage.lib.x64\11.4.0.11410\build\Atalasoft.dotImage.Lib.x64.targets" Condition="Exists('$(NuGetPackageRoot)atalasoft.dotimage.lib.x64\11.4.0.11410\build\Atalasoft.dotImage.Lib.x64.targets')" />
+    <Import Project="$(NuGetPackageRoot)atalasoft.dotimage.x64\11.4.0.11410\build\Atalasoft.dotImage.x64.targets" Condition="Exists('$(NuGetPackageRoot)atalasoft.dotimage.x64\11.4.0.11410\build\Atalasoft.dotImage.x64.targets')" />
+    <Import Project="$(NuGetPackageRoot)atalasoft.dotimage.pdfreader.x86\11.4.0.11410\build\Atalasoft.dotImage.PdfReader.x86.targets" Condition="Exists('$(NuGetPackageRoot)atalasoft.dotimage.pdfreader.x86\11.4.0.11410\build\Atalasoft.dotImage.PdfReader.x86.targets')" />
+    <Import Project="$(NuGetPackageRoot)atalasoft.dotimage.pdfreader.x64\11.4.0.11410\build\Atalasoft.dotImage.PdfReader.x64.targets" Condition="Exists('$(NuGetPackageRoot)atalasoft.dotimage.pdfreader.x64\11.4.0.11410\build\Atalasoft.dotImage.PdfReader.x64.targets')" />
+  </ImportGroup>
+</Project>
